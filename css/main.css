@@ -1,0 +1,489 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(100, 205, 237);
+    color: #fff;
+    font-family: 'Righteous', cursive;
+    overflow: hidden;
+}
+
+.active-block {
+    width: 300px;
+    height: auto;
+    text-align: center;
+    margin: 11% auto;
+}
+
+.active-block_btn_animete {
+    position: relative;
+}
+
+.active-block__button {
+    width: 200px;
+    height: 50px;
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    background: rgb(255, 153, 0);
+    border: none;
+    letter-spacing: 0.15em;
+    border-radius: 12px;
+    position: absolute;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.active-block__button_no {
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    background: rgb(190, 114, 0);
+    border: none;
+    border-radius: 12px;
+    position: absolute;
+    z-index: -1;
+    margin: 0 auto;
+    top: 8px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.active-block_result {
+    padding:  90px 0 50px 0;
+    display: block;
+    justify-content: center;
+}
+
+.result {
+    margin: 10px 0 0 0;
+}
+
+.active-block__btn {
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    width: 120px;
+    height: 50px;
+    color: #fff;
+    background: red;
+    border: none;
+    letter-spacing: 0.15em;
+    border-radius: 12px;
+    position: absolute;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.active-block_animete {
+    margin-top: 10px;
+    width: 120px;
+    height: 50px;
+    color: #fff;
+    background: rgb(180, 25, 25);
+    border: none;
+    border-radius: 12px;
+    position: absolute;
+    z-index: -1;
+    margin: 0 auto;
+    top: 8px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.shop {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 25%;
+    overflow-y: scroll;
+}
+
+.shop_product {
+    width: 80%;
+    margin: 50px auto 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product__icon {
+    width: 50px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.shop_product_logo {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.product_description {
+    text-align: left;
+}
+
+.product_description__text {
+    margin: 0 0 0 0;
+    padding: 0;
+    line-height: 5em;
+    font-size: 16px;
+}
+
+.icon__text {
+    margin: 0;
+}
+
+.btn__shop {
+    width: 40%;
+    height: 50px;
+    background: rgb(255, 153, 0);
+    border: none;
+    border-radius: 5px;
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+    transition: all 300ms;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.btn__shop:hover {
+    transition: all 300ms;
+    background: rgb(218, 131, 0);
+}
+
+.block-btn_shop {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.block_number {
+    display: flex;
+    font-size: 25px;
+    width: 30%;
+    background: rgb(165, 91, 42);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.text-number {
+    margin:  0 0 0 10px;
+}
+
+.product__numbner {
+    margin: 0;
+    text-align: center;
+}
+
+.block_money {
+    display: flex;
+    align-items: center;
+}
+
+.money {
+    margin: 0 0 0 20px;
+    font-size: 25px;
+}
+
+.information {
+    margin: 20px auto 0 auto;
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close {
+    border: none;
+    width: 80px;
+    height: 35px;
+    background: red;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Righteous', cursive;
+    margin: 0;
+    transition: all 300ms;
+}
+
+.close:hover {
+    transition: all 300ms;
+    background: rgb(219, 0, 0);
+}
+
+.product__iconTwo {
+    width: 30px;
+    height: 30px;
+}
+
+.price {
+    margin: 0 0 0 10px;
+}
+
+.shop::-webkit-scrollbar {
+    width: 24px; /* ширина для вертикального скролла */
+    height: 8px; /* высота для горизонтального скролла */
+    background-color: #27a76b00;
+}
+
+.shop::-webkit-scrollbar-thumb {
+    background-color: #339282ab;
+    border-radius: 9px;
+}
+
+.shop::-webkit-scrollbar-thumb:hover {
+    background-color: #339282;
+}
+
+.Record {
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    top: 1%;
+    left: 2%;
+    margin: 0;
+}
+
+/* Верхняя часть кнопки*/
+
+.btn_time {
+    border: none;
+    width: 100px;
+    height: 45px;
+    background: rgb(161, 161, 161);
+    border-radius: 12px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: 'Righteous', cursive;
+    margin: 0;
+    position: absolute;
+    top: 1%;
+    right: 2%;
+}
+
+/* Нижняя часть кнопки*/
+
+.btn_timeTwo {
+    border: none;
+    width: 100px;
+    height: 45px;
+    border-radius: 12px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: 'Righteous', cursive;
+    margin: 0;
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    z-index: -1;
+    background: rgb(100, 100, 100);
+}
+
+/* Другая кнопка*/
+
+.btn_time_new {
+    border: none;
+    width: 100px;
+    height: 45px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-family: 'Righteous', cursive;
+    margin: 0;
+    position: absolute;
+    right: 2%;
+    top: 12.8%;
+    background: rgb(0, 81, 255);
+    color: rgb(255, 255, 255);
+}
+
+.btn_timeTwo_new {
+    border: none;
+    width: 100px;
+    height: 45px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-family: 'Righteous', cursive;
+    margin: 0;
+    position: absolute;
+    right: 2%;
+    top: 13%;
+    background: rgb(0, 27, 85);
+    z-index: -1;
+}
+
+.block_modeTime {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.block_modeTime__btn {
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    width: 120px;
+    height: 50px;
+    color: #fff;
+    background: red;
+    border: none;
+    letter-spacing: 0.15em;
+    border-radius: 12px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 245px;
+}
+
+.block_modeTime_btn_animete {
+    margin-top: 10px;
+    width: 120px;
+    height: 50px;
+    color: #fff;
+    background: rgb(180, 25, 25);
+    border: none;
+    border-radius: 12px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 263px;
+    z-index: -1;
+}
+
+.gameOver {
+    font-size: 35px;
+    color: rgb(208, 255, 0);
+    margin: 0 0 10px 0;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.block_modeTime {
+    width: 50%;
+    position: absolute;
+    top: 32%;
+    left: 0;
+    right: 0;
+    left: 0;
+
+}
+
+.block-contsiner {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.ResultTime {
+    margin: 50px 0;
+}
+
+.buttom {
+    margin-bottom: 50px;
+}
+
+.display {
+    display: none;
+}
+
+.active {
+    display: none;
+}
+
+/* @media (max-width: 650px) {
+    .Record {
+        position: static;
+        margin: 0 0 50px 0;
+    }
+
+    .btn_time {
+        margin: 0 auto;
+        top: 70%;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        width: 200px;
+    }
+
+    .btn_timeTwo {
+        margin: 0 auto;
+        top: 71%;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        width: 200px;
+    }
+
+    .btn_time_new {
+        margin: 0 auto;
+        top: 80%;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        width: 200px;
+    }
+
+    .btn_timeTwo_new {
+        margin: 0 auto;
+        top: 81%;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        width: 200px;
+    }
+
+    .active-block__btn {
+        width: 200px;
+    }
+
+    .active-block_animete {
+        width: 200px;
+    }
+
+    .active-block__button {
+        width: 200px;
+    }
+
+    .active-block__button_no {
+        width: 200px;
+    }
+
+    .shop::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .shop::-webkit-scrollbar-thumb {
+        display: none;
+    }
+    
+    .shop::-webkit-scrollbar-thumb:hover {
+        display: none;
+    }
+} */
+
+
+
+
+
+@font-face {
+    font-family: 'Righteous', cursive;
+    src: url("/fonts/Righteous-Regular.ttf");
+}
